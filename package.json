@@ -1,0 +1,14 @@
+{
+  "name": "rock-paper-scissors-cli",
+  "version": "1.0.0",
+  "description": "Rock Paper Scissors CLI Game",
+  "type": "module",
+  "bin": {
+    "rockpaperscissors": "./bin/index.js"
+  },
+  "dependencies": {
+    "@inquirer/prompts": "^7.5.1",
+    "chalk": "^4.1.2",
+    "commander": "^13.1.0"
+  }
+}
